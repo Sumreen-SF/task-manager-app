@@ -1,16 +1,31 @@
-# task_manager
+# Task Manager
 
-A new Flutter project.
+A full-featured productivity app for managing daily tasks — built to actually 
+replace a sticky-note habit, not just check a box for a class assignment.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- ✅ Subtasks with live progress bars and checklist-style completion
+- 🔁 Recurring tasks with custom day-of-week scheduling (e.g. Mon / Wed / Fri)
+- 🔔 Local notifications with selectable custom alert sounds
+- 🌗 Light and dark theme support
+- 📦 Completed-task archive
+- 💾 Fully offline — all data stored locally on-device
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter
+- **Language:** Dart
+- **Notifications:** flutter_local_notifications
+- **Storage:** SQLite (local, on-device)
+- **IDE:** Android Studio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Why I built this
+
+Most task apps are either too simple (just a checklist) or too complex (full 
+project-management tools). I wanted something in between — real support for 
+recurring routines and multi-step tasks, without the overhead.
+
+## Status
+
+Actively developed as a personal project.
